@@ -1,0 +1,217 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(230, 17%, 14%);
+    padding: 3% 10%;
+    margin: 40px;
+}
+.header{
+    color: white;
+    display: flex;
+    font-family:  "Inter", sans-serif;
+    justify-content: space-between;
+}
+.left{
+    color: white;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 20px;
+}
+.right>.first-radio{
+margin-right: -9px;
+}
+.card-items>p{
+    color: rgb(78, 72, 72);
+    font-size: 10px;
+}
+/*.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 3em 0 6em 0;
+  }
+.card{
+    text-align: center;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3em;*/
+    
+
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 150px;
+    /* background-color: rgb(52, 52, 85); */
+    padding-top : 1px;
+    margin: 1em 0 3em 0;
+    gap: 3em;
+    border-radius: 10px;
+}
+.left>p{
+    font-size: 16px;
+    color: hsl(230, 28%, 41%)
+}
+
+.card1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 200px;
+    background-color: hsl(228, 28%, 20%);
+    border-top: 2px solid hsl(232, 47%, 50%);
+    border-radius: 6px;
+    
+}
+.card2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 200px;
+    background-color: hsl(228, 28%, 20%);
+    border-top: 2px solid hsl(203, 89%, 53%);
+    border-radius: 6px;
+    
+}
+.card3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 200px;
+    background-color: hsl(228, 28%, 20%);
+    border-top: 2px solid hsl(37, 97%, 70%) to hsl(329, 70%, 58%);
+    border-radius: 6px;
+}
+.card4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 200px;
+    background-color: hsl(228, 28%, 20%);
+    border-top: 2px solid hsl(348, 97%, 39%);
+    border-radius: 6px;
+    
+}
+h2{
+    color: white;
+    font-weight: bold;
+    font-size: 34px;
+}
+
+/* .facebook-icon{
+    display: flex;
+    align-items: center;
+    color:  hsl(208, 92%, 53%);
+    gap: 5px; */
+
+.facebook-icon>span{
+   color: hsl(228, 34%, 66%);
+} 
+.Twitter-icon{
+    display: flex;
+    align-items: center;
+    color:  hsl(208, 92%, 53%);
+    gap: 5px;
+}
+.Twitter-icon>span{
+    color: hsl(228, 34%, 66%);
+}
+.instagram-icon>span{
+    color: hsl(228, 34%, 66%);
+}
+.youtube-icon>span{
+    color: hsl(228, 34%, 66%);
+}
+p{
+    font-family:"Inter", sans-serif ;
+    font-size: 24px;
+}
+.overview {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 180px;
+    /* background-color: rgb(52, 52, 85); */
+    padding-top : 1px;
+    margin: 1em 0 0em 0;
+    
+    border-radius: 10px;
+}
+.navcard{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    width: 200px;
+    height: 100px;
+    background-color: hsl(228, 28%, 20%);
+    border-radius: 6px; 
+    padding: 10px 0px;
+}
+
+    
+.pageviews{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 10px;
+
+}
+.pageviews>h2{
+    font-size: 16px;
+    display: flex;
+    color:hsl(228, 34%, 66%) ;
+    justify-content: space-between;
+    
+}
+
+.numbers{
+    display: flex;
+    flex-direction: row;
+    padding: 5px 10px;
+    justify-content: space-between;
+}
+.numbers>.numbers-right{
+    display: flex;
+    max-width: 100%;
+    flex-direction: row;
+    padding-top: 13px;
+}
+.numbers>.numbers-right>span{
+    color: rgb(60, 163, 60);
+}
+.numbers-right>img{
+    align-self: center;
+
+}
+.last {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 180px;
+    /* background-color: rgb(52, 52, 85); */
+    padding-top : 1px;
+    margin: 1em 0 0em 0;
+    
+    border-radius: 10px;
+}
+.navcard2{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    width: 200px;
+    height: 100px;
+    background-color: hsl(228, 28%, 20%);
+    border-radius: 6px; 
+    padding: 10px 0px;
+}
+
